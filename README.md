@@ -5,16 +5,17 @@ Here are basic examples of usage of [GoodData.UI](https://github.com/gooddata/go
 ## List of Examples
 
 * Headline - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-headline?file=/src/App/index.js)
-* Snippet03 - open in CodeSandbox
-* Snippet04 - open in CodeSandbox
-* Snippet05 - open in CodeSandbox
-* Snippet06 - open in CodeSandbox
-* Snippet07 - open in CodeSandbox
-* Snippet08 - open in CodeSandbox
-* Snippet09 - open in CodeSandbox
-* Snippet10 - open in CodeSandbox
-* Snippet11 - open in CodeSandbox
-* Snippet12 - open in CodeSandbox
+* ComboChart - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-combochart?file=/src/App/index.js)
+* RelativeDateFilter - open in CodeSandbox
+* Treemap Config - open in CodeSandbox
+* PivotTable - open in CodeSandbox
+* InsightView - open in CodeSandbox
+* Execute - open in CodeSandbox
+* Year Filter - open in CodeSandbox
+* AttributeFilter - open in CodeSandbox
+* Custom Attribute Filter - open in CodeSandbox
+* Granularity - open in CodeSandbox
+* DateFilter - TODO
 
 ## Running Examples in CodeSandbox using GitHubBox
 
