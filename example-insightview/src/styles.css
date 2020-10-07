@@ -1,0 +1,19 @@
+.App {
+  font-family: avenir, "Helvetica Neue", arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+pre {
+  display: inline-block;
+  background-color: rgba(0, 0, 128, 0.1);
+  border-radius: 5px;
+  padding: 1px 5px;
+}
