@@ -6,7 +6,7 @@ Here are basic examples of usage of [GoodData.UI](https://github.com/gooddata/go
 
 * Headline - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-headline?file=/src/App/index.js)
 * ComboChart - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-combochart?file=/src/App/index.js)
-* RelativeDateFilter - open in CodeSandbox
+* RelativeDateFilter - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-relativedatefilter?file=/src/App/index.js)
 * Treemap Config - open in CodeSandbox
 * PivotTable - open in CodeSandbox
 * InsightView - open in CodeSandbox
