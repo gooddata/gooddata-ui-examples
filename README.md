@@ -8,7 +8,7 @@ Here are basic examples of usage of [GoodData.UI](https://github.com/gooddata/go
 * ComboChart - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-combochart?file=/src/App/index.js)
 * RelativeDateFilter - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-relativedatefilter?file=/src/App/index.js)
 * ChartConfig - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-chartconfig?file=/src/App/index.js)
-* PivotTable - open in CodeSandbox
+* PivotTable - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-pivottable?file=/src/App/index.js)
 * InsightView - open in CodeSandbox
 * Execute - open in CodeSandbox
 * Year Filter - open in CodeSandbox
