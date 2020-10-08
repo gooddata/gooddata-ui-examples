@@ -12,7 +12,7 @@ Here are basic examples of usage of [GoodData.UI](https://github.com/gooddata/go
 * InsightView - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-insightview?file=/src/App/index.js)
 * Execute - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-execute?file=/src/App/index.js)
 * Year Filter - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-yearfilter?file=/src/App/index.js)
-* AttributeFilter - open in CodeSandbox
+* AttributeFilter - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-attributefilter?file=/src/App/index.js)
 * Custom Attribute Filter - open in CodeSandbox
 * Granularity - open in CodeSandbox
 * DateFilter - TODO
