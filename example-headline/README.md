@@ -1,8 +1,8 @@
 # GoodData.UI SDK - Interactive Examples - Headline
 
-You can run this example in [CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-headline?file=/src/App/index.js). Navigate [up](..) for more information.
+You can run this example in [CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-headline?file=/src/App/index.js). Navigate [up](https://github.com/gooddata/gooddata-ui-examples) for more information.
 
-![Headline](/assets/example-headline.png)
+![Headline](/assets/example-localhost-headline.png)
 
 ## License
 

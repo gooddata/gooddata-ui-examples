@@ -14,7 +14,7 @@ export default () => {
 
   return (
     <>
-      <h1>Revenue for 2018, 2019 or 2020</h1>
+      <h1>Revenue for 2018, 2019, or 2020</h1>
       <RadioButtons year={year} onChange={onChange} />
       <div style={{ height: 300 }}>
         <ColumnChart
