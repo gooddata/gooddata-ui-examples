@@ -5,7 +5,7 @@ export default () => (
     <span aria-label="Look!" role="img">
       👉
     </span>{" "}
-    Custom implementation of Attribute Filter using{" "}
+    Custom implementation of the Attribute Filter using{" "}
     <a
       href="https://react-select.com/"
       target="_blank"

@@ -9,7 +9,7 @@ const insight = "aaxwvA9xaYYu";
 
 export default () => (
   <>
-    <h1>Insight created in Analytical Designer</h1>
+    <h1>Insight Created in Analytical Designer</h1>
 
     <div style={{ height: 300 }}>
       <InsightView insight={insight} />

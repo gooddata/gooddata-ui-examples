@@ -5,6 +5,6 @@ export default () => (
     <span aria-label="Look!" role="img">
       👉
     </span>{" "}
-    This insight was created in our drag'n'drop data exploration tool
+    This insight was created in our drag-and-drop data exploration tool
   </div>
 );
