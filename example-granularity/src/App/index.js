@@ -1,7 +1,7 @@
 // (C) 2020 GoodData Corporation
 import React, { useState } from "react";
 import { ComboChart } from "@gooddata/sdk-ui-charts";
-import { newRelativeDateFilter } from "@gooddata/sdk-model";
+import { DateGranularity, newRelativeDateFilter } from "@gooddata/sdk-model";
 import * as Ldm from "../ldm";
 import Hint from "./Hint";
 import RadioButtons from "./RadioButtons";
@@ -24,7 +24,7 @@ export default () => {
           primaryMeasures={[Ldm.Revenue]}
           secondaryMeasures={[Ldm.NrOfOrders]}
           viewBy={[granularity]}
-          filters={[newRelativeDateFilter(DATASET, "GDC.time.month", -11, 0)]}
+          filters={[newRelativeDateFilter(DATASET, DateGranularity.month, -11, 0)]}
           config={{ legend: { enabled: false } }}
         />
       </div>
