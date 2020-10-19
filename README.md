@@ -26,7 +26,7 @@ https://github.com/gooddata/gooddata-ui-examples/tree/master/example-headline.
 To:\
 https://githubbox.com/gooddata/gooddata-ui-examples/tree/master/example-headline.
 
-![Headline](assets/example-headline.png)
+![Headline](assets/example-codesandbox-headline.png)
 
 ## Running Examples locally
 
@@ -41,4 +41,4 @@ You can also run any example on your localhost.
 
 (C) 2017-2020 GoodData Corporation
 
-This repository is under the GoodData commercial license available in the [LICENSE](LICENSE) file because it contains a commercial package, HighCharts. Subdirectories containing the MIT license are not subject to the GoodData commercial license and do not contain any commercial code.
+This repository is under the GoodData commercial license available in the LICENSE file because it contains a commercial package, HighCharts.
