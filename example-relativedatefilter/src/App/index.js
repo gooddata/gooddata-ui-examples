@@ -1,6 +1,6 @@
 import React from "react";
 import { ComboChart } from "@gooddata/sdk-ui-charts";
-import { newRelativeDateFilter } from "@gooddata/sdk-model";
+import { DateGranularity, newRelativeDateFilter } from "@gooddata/sdk-model";
 import * as Ldm from "../ldm";
 import Hint from "./Hint";
 
@@ -17,7 +17,7 @@ export default () => (
         primaryMeasures={[Ldm.Revenue]}
         secondaryMeasures={[Ldm.NrOfOrders]}
         viewBy={[Ldm.DateMonthYear.Long]}
-        filters={[newRelativeDateFilter(DATASET, "GDC.time.month", -2, 0)]} // 👉 Try -5, 0
+        filters={[newRelativeDateFilter(DATASET, DateGranularity.month, -2, 0)]} // 👉 Try -5, 0
       />
     </div>
 
