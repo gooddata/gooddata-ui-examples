@@ -41,4 +41,4 @@ You can also run any example on your localhost.
 
 (C) 2017-2020 GoodData Corporation
 
-This repository is under the GoodData commercial license available in the LICENSE file because it contains a commercial package, HighCharts.
+This repository is under the GoodData commercial license available in the [LICENSE](LICENSE) file because it contains a commercial package, HighCharts.
