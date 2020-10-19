@@ -1,3 +1,4 @@
+// (C) 2020 GoodData Corporation
 import React from "react";
 import { AttributeElements } from "@gooddata/sdk-ui-filters";
 import {

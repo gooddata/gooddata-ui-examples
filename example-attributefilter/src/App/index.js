@@ -1,3 +1,4 @@
+// (C) 2020 GoodData Corporation
 import React, { useState } from "react";
 import { Treemap } from "@gooddata/sdk-ui-charts";
 import { AttributeFilter } from "@gooddata/sdk-ui-filters";

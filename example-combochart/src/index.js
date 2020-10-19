@@ -1,3 +1,4 @@
+// (C) 2020 GoodData Corporation
 import React from "react";
 import ReactDOM from "react-dom";
 import { BackendProvider, WorkspaceProvider } from "@gooddata/sdk-ui";

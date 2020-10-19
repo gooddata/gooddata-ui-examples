@@ -1,3 +1,4 @@
+// (C) 2020 GoodData Corporation
 import React from "react";
 import { ComboChart } from "@gooddata/sdk-ui-charts";
 import { newRelativeDateFilter } from "@gooddata/sdk-model";
