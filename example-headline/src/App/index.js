@@ -1,3 +1,4 @@
+// (C) 2020 GoodData Corporation
 import React from "react";
 import { Headline } from "@gooddata/sdk-ui-charts";
 import * as Ldm from "../ldm";

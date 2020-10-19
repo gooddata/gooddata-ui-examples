@@ -1,7 +1,7 @@
 {
-  "name": "react",
+  "name": "gooddata-ui-examples",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "GoodData.UI SDK - Interactive Examples",
   "keywords": [
     "react",
     "starter"

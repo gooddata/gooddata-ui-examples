@@ -1,3 +1,4 @@
+// (C) 2020 GoodData Corporation
 import React, { useState } from "react";
 import { ColumnChart } from "@gooddata/sdk-ui-charts";
 import { newAbsoluteDateFilter } from "@gooddata/sdk-model";

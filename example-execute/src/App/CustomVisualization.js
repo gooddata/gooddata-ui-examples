@@ -1,3 +1,4 @@
+// (C) 2020 GoodData Corporation
 import React from "react";
 import ReactHighcharts from "react-highcharts";
 import * as Ldm from "../ldm";
