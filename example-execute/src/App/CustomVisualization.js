@@ -1,7 +1,13 @@
 // (C) 2020 GoodData Corporation
 import React from "react";
-import ReactHighcharts from "react-highcharts";
+import Highcharts from "highcharts";
+import HighchartSankey from "highcharts/modules/sankey";
+import HighchartsWheel from "highcharts/modules/dependency-wheel";
+import HighchartsReact from "highcharts-react-official";
 import * as Ldm from "../ldm";
+
+HighchartSankey(Highcharts);
+HighchartsWheel(Highcharts);
 
 export default ({ error, isLoading, result }) => {
   if (isLoading) {
@@ -13,23 +19,36 @@ export default ({ error, isLoading, result }) => {
   }
 
   if (result) {
-    const config = {
-      chart: {
-        type: "column"
-      },
-      title: {
-        text: "🎉 Custom Chart Built with Highcharts 🎉"
-      },
-      series: result
-        .data()
-        .series()
-        .firstForMeasure(Ldm.RevenueTop10)
-        .dataPoints()
-        .map((row, i) => ({ data: [parseFloat(row.rawValue)] }))
-    };
+    const data = result
+      .data()
+      .series()
+      .firstForMeasure(Ldm.Revenue)
+      .dataPoints()
+      .map((dataPoint) => ({
+        from: dataPoint.sliceDesc.headers[0].attributeHeaderItem.name,
+        to: dataPoint.sliceDesc.headers[1].attributeHeaderItem.name,
+        weight: parseFloat(dataPoint.rawValue)
+      }));
 
-    return <ReactHighcharts config={config} />;
+    return (
+      <HighchartsReact
+        highcharts={Highcharts}
+        options={{
+          chart: {
+            type: "dependencywheel"
+          },
+          title: {
+            text: "🎉 Custom Chart Built with Highcharts 🎉"
+          },
+          series: [
+            {
+              data
+            }
+          ]
+        }}
+      />
+    );
   }
 
-  return "🧟‍♂️ UGLY INIT";
+  return <span>Init…</span>;
 };
