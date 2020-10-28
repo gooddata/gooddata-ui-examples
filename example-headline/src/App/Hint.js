@@ -6,6 +6,7 @@ export default () => (
     <span aria-label="Look!" role="img">
       👉
     </span>{" "}
-    This is wrong, the percentage doesn't make sense. But you get the jist.
+    Use the <pre>modifyMeasure</pre> helper to rename the secondary measure to{" "}
+    <pre>Last Year</pre>
   </div>
 );
