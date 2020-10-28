@@ -26,7 +26,7 @@ https://github.com/gooddata/gooddata-ui-examples/tree/master/example-headline.
 To:\
 https://githubbox.com/gooddata/gooddata-ui-examples/tree/master/example-headline.
 
-![Headline](assets/example-codesandbox-headline.png)
+[![Headline](assets/example-codesandbox-headline.png)](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-headline?file=/src/App/index.js)
 
 ## Running Examples locally
 

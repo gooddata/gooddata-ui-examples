@@ -2,7 +2,7 @@
 
 You can run this example in [CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-insightview?file=/src/App/index.js). Navigate [up](https://github.com/gooddata/gooddata-ui-examples) for more information.
 
-![InsightView](/assets/example-localhost-insightview.png)
+[![InsightView](/assets/example-localhost-insightview.png)](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-insightview?file=/src/App/index.js)
 
 ## License
 
