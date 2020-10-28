@@ -10,7 +10,7 @@ export default () => (
     <h1>Custom Visualization</h1>
 
     <div style={{ height: 400 }}>
-      <Execute seriesBy={[Ldm.RevenueTop10]} slicesBy={[Ldm.CustomerName]}>
+      <Execute seriesBy={[Ldm.Revenue]} slicesBy={[Ldm.ProductCategory, Ldm.CustomerRegion]}>
         {CustomVisualization}
       </Execute>
     </div>
