@@ -2,17 +2,17 @@
 import React, { useState } from "react";
 import { ComboChart } from "@gooddata/sdk-ui-charts";
 import { DateGranularity, newRelativeDateFilter } from "@gooddata/sdk-model";
+import { defaultDateFilterOptions } from "@gooddata/sdk-ui-filters";
 import * as Ldm from "../ldm";
 import Hint from "./Hint";
 import DateFilter from "./DateFilter";
-import dateFilterOptions from "./dateFilterOptions";
 
 export const DATASET = "date.dataset.dt";
 
 export default () => {
   const [filter, setFilter] = useState({
     selectedFilterOption:
-      dateFilterOptions.relativePreset[DateGranularity.month][1],
+      defaultDateFilterOptions.relativePreset[DateGranularity.month][1],
     excludeCurrentPeriod: false
   });
   const { selectedFilterOption } = filter;
