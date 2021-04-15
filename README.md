@@ -38,6 +38,16 @@ You can also run any example on your localhost.
 1. `yarn install`
 1. `yarn start`
 
+## Upgrading GoodData.UI SDK in all the examples at once
+
+To bump GoodData.UI SDK to the latest version in all the examples at once, you can run the script:
+
+```bash
+./scripts/bump-sdk.sh
+```
+
+This will upgrade all `@gooddata` packages in all the `example-*` folders. This can take several minutes, so be patient.
+
 ## License
 
 (C) 2017-2020 GoodData Corporation
