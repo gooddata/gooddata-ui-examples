@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import { BackendProvider, WorkspaceProvider } from "@gooddata/sdk-ui";
 import backend from "./backend";
 
+import "@gooddata/sdk-ui-ext/styles/css/main.css";
 import "@gooddata/sdk-ui-charts/styles/css/main.css";
 import "./styles.css";
 
