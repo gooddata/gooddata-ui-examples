@@ -3,11 +3,9 @@ import React, { useState } from "react";
 import { ComboChart } from "@gooddata/sdk-ui-charts";
 import { DateGranularity, newRelativeDateFilter } from "@gooddata/sdk-model";
 import { defaultDateFilterOptions } from "@gooddata/sdk-ui-filters";
-import * as Ldm from "../ldm";
+import * as Md from "../md";
 import Hint from "./Hint";
 import DateFilter from "./DateFilter";
-
-export const DATASET = "date.dataset.dt";
 
 export default () => {
   const [filter, setFilter] = useState({
@@ -22,7 +20,7 @@ export default () => {
       ? []
       : [
           newRelativeDateFilter(
-            DATASET,
+            Md.DateDatasets.OrderDate,
             selectedFilterOption.granularity,
             selectedFilterOption.from,
             selectedFilterOption.to
@@ -39,9 +37,9 @@ export default () => {
 
       <div style={{ height: 300 }}>
         <ComboChart
-          primaryMeasures={[Ldm.Revenue]}
-          secondaryMeasures={[Ldm.NrOfOrders]}
-          viewBy={[Ldm.DateDate.Long]}
+          primaryMeasures={[Md.Revenue]}
+          secondaryMeasures={[Md.NrOfOrders]}
+          viewBy={[Md.DateDatasets.OrderDate.Date.Long]}
           filters={filters}
         />
       </div>

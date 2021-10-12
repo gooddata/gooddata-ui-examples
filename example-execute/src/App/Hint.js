@@ -10,7 +10,7 @@ export default () => (
       This chart has been built using the{" "}
       <pre>
         <a
-          href="https://sdk.gooddata.com/gooddata-ui/docs/execute_component.html"
+          href="https://sdk.gooddata.com/gooddata-ui/docs/create_new_visualization.html"
           target="_blank"
           rel="noopener noreferrer"
         >

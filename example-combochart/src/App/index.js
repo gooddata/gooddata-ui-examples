@@ -1,7 +1,7 @@
 // (C) 2020 GoodData Corporation
 import React from "react";
 import { ComboChart } from "@gooddata/sdk-ui-charts";
-import * as Ldm from "../ldm";
+import * as Md from "../md";
 import Hint from "./Hint";
 
 export default () => (
@@ -11,9 +11,9 @@ export default () => (
     {/* Try editing the component below 👇 */}
     <div style={{ height: 300 }}>
       <ComboChart
-        primaryMeasures={[Ldm.Revenue]}
-        //secondaryMeasures={[Ldm.NrOfOrders]}
-        viewBy={[Ldm.DateMonthYear.Long]}
+        primaryMeasures={[Md.Revenue]}
+        //secondaryMeasures={[Md.NrOfOrders]}
+        viewBy={[Md.DateDatasets.OrderDate.MonthYear.Long]}
       />
     </div>
 

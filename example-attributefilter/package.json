@@ -16,7 +16,7 @@
     "@gooddata/sdk-ui-filters": "^8.6.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "4.0.3"
   },
   "devDependencies": {},
   "scripts": {
