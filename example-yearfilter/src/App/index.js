@@ -2,11 +2,9 @@
 import React, { useState } from "react";
 import { ColumnChart } from "@gooddata/sdk-ui-charts";
 import { newAbsoluteDateFilter } from "@gooddata/sdk-model";
-import * as Ldm from "../ldm";
+import * as Md from "../md";
 import Hint from "./Hint";
 import RadioButtons from "./RadioButtons";
-
-const DATASET = "date.dataset.dt";
 
 export default () => {
   // Try changing default year to 2019 👇
@@ -19,10 +17,10 @@ export default () => {
       <RadioButtons year={year} onChange={onChange} />
       <div style={{ height: 300 }}>
         <ColumnChart
-          measures={[Ldm.Revenue]}
-          viewBy={[Ldm.DateMonthYear.Long]}
+          measures={[Md.Revenue]}
+          viewBy={[Md.DateDatasets.OrderDate.MonthYear.Long]}
           filters={[
-            newAbsoluteDateFilter(DATASET, `${year}-01-01`, `${year}-12-31`)
+            newAbsoluteDateFilter(Md.DateDatasets.OrderDate, `${year}-01-01`, `${year}-12-31`)
           ]}
         />
       </div>

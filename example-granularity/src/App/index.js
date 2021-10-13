@@ -2,15 +2,13 @@
 import React, { useState } from "react";
 import { ComboChart } from "@gooddata/sdk-ui-charts";
 import { DateGranularity, newRelativeDateFilter } from "@gooddata/sdk-model";
-import * as Ldm from "../ldm";
+import * as Md from "../md";
 import Hint from "./Hint";
 import RadioButtons from "./RadioButtons";
 
-const DATASET = "date.dataset.dt";
-
 export default () => {
-  // Try changing default granularity to Ldm.DateQuarterYear 👇
-  const [granularity, setGranularity] = useState(Ldm.DateMonthYear.Long);
+  // Try changing default granularity to Md.DateDatasets.OrderDate.QuarterYear.USShort 👇
+  const [granularity, setGranularity] = useState(Md.DateDatasets.OrderDate.MonthYear.Long);
 
   return (
     <>
@@ -21,10 +19,10 @@ export default () => {
 
       <div style={{ height: 300 }}>
         <ComboChart
-          primaryMeasures={[Ldm.Revenue]}
-          secondaryMeasures={[Ldm.NrOfOrders]}
+          primaryMeasures={[Md.Revenue]}
+          secondaryMeasures={[Md.NrOfOrders]}
           viewBy={[granularity]}
-          filters={[newRelativeDateFilter(DATASET, DateGranularity.month, -11, 0)]}
+          filters={[newRelativeDateFilter(Md.DateDatasets.OrderDate, DateGranularity.month, -11, 0)]}
           config={{ legend: { enabled: false } }}
         />
       </div>

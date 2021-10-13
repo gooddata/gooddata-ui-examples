@@ -1,13 +1,13 @@
 // (C) 2020 GoodData Corporation
 import React from "react";
 import { PivotTable } from "@gooddata/sdk-ui-pivot";
-import * as Ldm from "../ldm";
+import * as Md from "../md";
 import Hint from "./Hint";
 //import { modifyMeasure } from "@gooddata/sdk-model";
 
 // Try editing lines below 👇
-const revenue = Ldm.Revenue;
-//const revenue = modifyMeasure(Ldm.Revenue, (m) => m.alias("Custom Title"));
+const revenue = Md.Revenue;
+//const revenue = modifyMeasure(Md.Revenue, (m) => m.alias("Custom Title"));
 
 export default () => (
   <>
@@ -15,8 +15,8 @@ export default () => (
 
     <div style={{ height: 550 }}>
       <PivotTable
-        measures={[Ldm.PercentRevenueInCategory, revenue]}
-        rows={[Ldm.ProductCategory, Ldm.Product]}
+        measures={[Md.PercentRevenueInCategory, revenue]}
+        rows={[Md.ProductCategory, Md.Product.Default]}
       />
     </div>
 

@@ -4,7 +4,7 @@ import Highcharts from "highcharts";
 import HighchartSankey from "highcharts/modules/sankey";
 import HighchartsWheel from "highcharts/modules/dependency-wheel";
 import HighchartsReact from "highcharts-react-official";
-import * as Ldm from "../ldm";
+import * as Md from "../md";
 
 HighchartSankey(Highcharts);
 HighchartsWheel(Highcharts);
@@ -22,7 +22,7 @@ export default ({ error, isLoading, result }) => {
     const data = result
       .data()
       .series()
-      .firstForMeasure(Ldm.Revenue)
+      .firstForMeasure(Md.Revenue)
       .dataPoints()
       .map((dataPoint) => ({
         from: dataPoint.sliceDesc.headers[0].attributeHeaderItem.name,
