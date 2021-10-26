@@ -1,24 +1,19 @@
 // (C) 2020 GoodData Corporation
-import React from "react";
-import { Headline } from "@gooddata/sdk-ui-charts";
-//import { modifyMeasure } from "@gooddata/sdk-model";
-import * as Md from "../md";
+import React, {useState } from "react";
 import Hint from "./Hint";
 
-// Try editing lines below 👇
-const lastYear = Md.TotalQuarterRevenuePreviousYear;
-//const lastYear = modifyMeasure(Md.TotalQuarterRevenuePreviousYear, (m) => m.alias("Last Year"));
+export default () => {
+  const [url, setUrl] = useState('https://demos.na.gooddata.com/dashboards/embedded/#/workspace/gf5ar7e02sth33atdbzpabhvbddaqva3/dashboard/aadPCE04gggj');
 
-export default () => (
-  <>
-    <h1>Revenue This Quarter</h1>
+  return (
+    <>
+      <h1>Emedding using iframe</h1>
 
-    {/* Try editing the component below 👇 */}
-    <Headline
-      primaryMeasure={Md.TotalRevenueThisQuarter}
-      secondaryMeasure={lastYear}
-    />
+      <label>dashboard URL: <input type="text" value={url} readOnly /></label>
 
-    <Hint />
-  </>
-);
+      <iframe src={url}></iframe>
+
+      <Hint url={url} setUrl={setUrl} />
+    </>
+  );
+};

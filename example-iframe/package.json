@@ -8,11 +8,6 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@gooddata/sdk-backend-base": "^8.6.0",
-    "@gooddata/sdk-backend-bear": "^8.6.0",
-    "@gooddata/sdk-model": "^8.6.0",
-    "@gooddata/sdk-ui": "^8.6.0",
-    "@gooddata/sdk-ui-charts": "^8.6.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-scripts": "4.0.3"
@@ -22,8 +17,7 @@
     "start": "HTTPS=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "upgrade-sdk": "yarn upgrade --latest --caret -P '@gooddata/(reference-|api-|sdk-|util)'"
+    "eject": "react-scripts eject"
   },
   "browserslist": [
     ">0.2%",

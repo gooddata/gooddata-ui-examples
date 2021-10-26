@@ -1,8 +1,8 @@
-# GoodData.UI SDK - Interactive Examples - Headline
+# GoodData.UI SDK - Interactive Examples - iframe
 
-You can run this example in [CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-headline?file=/src/App/index.js). Navigate [up](https://github.com/gooddata/gooddata-ui-examples) for more information.
+You can run this example in [CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-iframe?file=/src/App/index.js). Navigate [up](https://github.com/gooddata/gooddata-ui-examples) for more information.
 
-[![Headline](/assets/example-localhost-headline.png)](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-headline?file=/src/App/index.js)
+[![iframe](/assets/example-localhost-iframe.png)](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-iframe?file=/src/App/index.js)
 
 ## License
 
