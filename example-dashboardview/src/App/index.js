@@ -13,7 +13,12 @@ export default () => (
     <h1>Embedding using &lt;DashboardView /&gt;</h1>
 
     <div class="dashboard">
-      <DashboardView dashboard={dashboard} />
+      <DashboardView
+        dashboard={dashboard}
+        config={{
+          mapboxToken: 'pk.eyJ1IjoiYnVnc2J1bm55MzM4IiwiYSI6ImNrOWFjM3RwdDFwbTgzbWxjYXY5c2owcHEifQ.txtRg3caaSKdJObOMVwM6Q'
+        }}
+      />
     </div>
 
     <hr />

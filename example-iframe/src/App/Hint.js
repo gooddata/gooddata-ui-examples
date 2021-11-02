@@ -20,7 +20,7 @@ export default ({ url, setUrl }) => {
 
   return (
     <>
-      <div class="hint">
+      <div className="hint">
         <span aria-label="Look!" role="img">
           👉
         </span>{" "}
