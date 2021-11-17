@@ -1,4 +1,4 @@
-// (C) 2020 GoodData Corporation
+// (C) 2021 GoodData Corporation
 import React from "react";
 import Highcharts from "highcharts";
 import HighchartSankey from "highcharts/modules/sankey";

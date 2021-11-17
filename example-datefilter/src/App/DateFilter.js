@@ -1,4 +1,4 @@
-// (C) 2020 GoodData Corporation
+// (C) 2021 GoodData Corporation
 import React from "react";
 import { DateFilter, defaultDateFilterOptions } from "@gooddata/sdk-ui-filters";
 import { DateGranularity } from "@gooddata/sdk-model";

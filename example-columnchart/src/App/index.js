@@ -1,4 +1,4 @@
-// (C) 2020 GoodData Corporation
+// (C) 2021 GoodData Corporation
 import React from "react";
 import { ColumnChart } from "@gooddata/sdk-ui-charts";
 //import { BarChart } from "@gooddata/sdk-ui-charts";

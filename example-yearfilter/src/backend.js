@@ -1,4 +1,4 @@
-// (C) 2020 GoodData Corporation
+// (C) 2021 GoodData Corporation
 import bearFactory from "@gooddata/sdk-backend-bear";
 import { AnonymousAuthProvider } from "@gooddata/sdk-backend-base";
 
