@@ -1,0 +1,41 @@
+{
+  "name": "gooddata-ui-examples",
+  "version": "1.0.0",
+  "description": "GoodData.UI SDK - Interactive Examples",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@gooddata/sdk-backend-base": "^8.6.0",
+    "@gooddata/sdk-backend-bear": "^8.6.0",
+    "@gooddata/sdk-model": "^8.6.0",
+    "@gooddata/sdk-ui": "^8.6.0",
+    "@gooddata/sdk-ui-charts": "^8.6.0",
+    "@gooddata/sdk-ui-filters": "^8.6.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-scripts": "4.0.3",
+    "rsuite": "^5.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "less": "^4.1.2",
+    "less-watch-compiler": "^1.16.3"
+  },
+  "scripts": {
+    "start": "HTTPS=true react-scripts start",
+    "start-with-less": "concurrently --kill-others \"less-watch-compiler --config less-watcher.config.json\" \"HTTPS=true react-scripts start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "upgrade-sdk": "yarn upgrade --latest --caret -P '@gooddata/(reference-|api-|sdk-|util)'"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
