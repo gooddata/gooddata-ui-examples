@@ -1,4 +1,4 @@
-// (C) 2020 GoodData Corporation
+// (C) 2021 GoodData Corporation
 import React, { useState } from "react";
 import { ComboChart } from "@gooddata/sdk-ui-charts";
 import { DateGranularity, newRelativeDateFilter } from "@gooddata/sdk-model";

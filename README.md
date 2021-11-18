@@ -1,6 +1,8 @@
 # GoodData.UI SDK - Interactive Examples
 
-Here are basic examples of usage of [GoodData.UI](https://github.com/gooddata/gooddata-ui-sdk).
+Here are basic usage examples of [GoodData.UI](https://github.com/gooddata/gooddata-ui-sdk).
+
+> Please note that these Interactive Examples work well in all major browsers (Firefox, Chrome, Safari, …) except for [Brave](https://brave.com/).
 
 ## List of Examples
 
@@ -17,6 +19,8 @@ Here are basic examples of usage of [GoodData.UI](https://github.com/gooddata/go
 * Custom Attribute Filter - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-customattributefilter?file=/src/App/index.js)
 * Granularity - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-granularity?file=/src/App/index.js)
 * DateFilter - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-datefilter?file=/src/App/index.js)
+* ColumnChart - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-columnchart?file=/src/App/index.js)
+* Measure Value Filter - [open in CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-measurevaluefilter?file=/src/App/index.js)
 
 ## Running Examples in CodeSandbox using GitHubBox
 
@@ -39,7 +43,7 @@ You can also run any example on your localhost.
 1. `yarn install`
 1. `yarn start`
 
-## Upgrading GoodData.UI SDK in all the examples at once
+## Upgrading GoodData.UI SDK in all examples at once
 
 To bump GoodData.UI SDK to the latest version in all the examples at once, you can run the script:
 
@@ -49,8 +53,14 @@ To bump GoodData.UI SDK to the latest version in all the examples at once, you c
 
 This will upgrade all `@gooddata` packages in all the `example-*` folders. This can take several minutes, so be patient.
 
+## Troubleshooting
+
+`**ModuleNotFoundError** Could not find module in path: '@gooddata/sdk-model/esm/execution/measure/fingerprint' relative to '/node_modules/@gooddata/sdk-model/esm/execution/executionDefinition/index.js'`
+
+This error might occur when some sort of ad-block is present in a browser, or when using the [Brave browser](https://brave.com/). Please turn off your ad-block related features, or try a different browser (e.g., Firefox or Safari).
+
 ## License
 
-(C) 2017-2020 GoodData Corporation
+(C) 2017-2021 GoodData Corporation
 
 This repository is under the GoodData commercial license available in the [LICENSE](LICENSE) file because it contains a commercial package, HighCharts.

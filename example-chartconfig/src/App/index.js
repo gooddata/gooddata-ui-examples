@@ -1,4 +1,4 @@
-// (C) 2020 GoodData Corporation
+// (C) 2021 GoodData Corporation
 import React from "react";
 import { Treemap } from "@gooddata/sdk-ui-charts";
 import * as Md from "../md";
