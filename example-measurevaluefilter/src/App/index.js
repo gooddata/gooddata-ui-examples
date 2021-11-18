@@ -6,11 +6,11 @@ import RangeSlider from "rsuite/RangeSlider";
 import * as Md from "../md";
 import Hint from "./Hint";
 
-const SLIDER_STEP = 1000;
+const SLIDER_STEP = 5000;
 const SLIDER_MIN = 0;
 const SLIDER_MAX = 20000;
-const DEFAULT_MIN = 2000;
-const DEFAULT_MAX = 5000;
+const DEFAULT_MIN = 5000;
+const DEFAULT_MAX = 10000;
 
 export default () => {
   const budget = modifyMeasure(Md.Budget.Sum, m => m.title('Budget'));
@@ -32,6 +32,7 @@ export default () => {
       <div style={{ margin: "auto", marginBottom: 100, width: '90%' }}>
         <RangeSlider
           graduated
+          tooltip={false}
           step={SLIDER_STEP}
           min={SLIDER_MIN}
           max={SLIDER_MAX}
@@ -40,7 +41,7 @@ export default () => {
             newMinMax.sort((a, b) => a - b);
             setMinMax({ min: newMinMax[0], max: newMinMax[1] });
           }}
-          renderMark={mark => `${mark / 1000}k`}
+          renderMark={mark => mark}
         />
       </div>
 
