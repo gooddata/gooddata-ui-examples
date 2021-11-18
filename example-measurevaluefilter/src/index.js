@@ -6,7 +6,7 @@ import backend from "./backend";
 
 import "@gooddata/sdk-ui-charts/styles/css/main.css";
 import "@gooddata/sdk-ui-filters/styles/css/main.css";
-import "./slider.css"
+import "./slider.css";
 import "./styles.css";
 
 import App from "./App";
