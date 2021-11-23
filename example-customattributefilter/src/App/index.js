@@ -1,7 +1,7 @@
 // (C) 2021 GoodData Corporation
 import React, { useState } from "react";
 import { Treemap } from "@gooddata/sdk-ui-charts";
-//import { newPositiveAttributeFilter } from "@gooddata/sdk-model";
+import { newPositiveAttributeFilter } from "@gooddata/sdk-model";
 import * as Md from "../md";
 import CustomAttributeFilter from "./CustomAttributeFilter";
 import Hint from "./Hint";
