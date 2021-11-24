@@ -1,7 +1,7 @@
 // (C) 2021 GoodData Corporation
 import React from "react";
 import { ColumnChart } from "@gooddata/sdk-ui-charts";
-//import { BarChart } from "@gooddata/sdk-ui-charts";
+import { BarChart } from "@gooddata/sdk-ui-charts";
 import { modifyMeasure } from "@gooddata/sdk-model";
 import * as Md from "../md";
 import Hint from "./Hint";

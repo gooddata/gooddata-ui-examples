@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { ColumnChart } from "@gooddata/sdk-ui-charts";
 import { modifyMeasure, newMeasureValueFilter } from "@gooddata/sdk-model";
-import RangeSlider from "rsuite/RangeSlider";
+import { RangeSlider } from "rsuite";
 import * as Md from "../md";
 import Hint from "./Hint";
 

@@ -3,7 +3,7 @@ import React from "react";
 import { PivotTable } from "@gooddata/sdk-ui-pivot";
 import * as Md from "../md";
 import Hint from "./Hint";
-//import { modifyMeasure } from "@gooddata/sdk-model";
+import { modifyMeasure } from "@gooddata/sdk-model";
 
 // Try editing lines below 👇
 const revenue = Md.Revenue;
