@@ -8,12 +8,12 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@gooddata/sdk-backend-base": "^8.6.0",
-    "@gooddata/sdk-backend-bear": "^8.6.0",
-    "@gooddata/sdk-model": "^8.6.0",
-    "@gooddata/sdk-ui": "^8.6.0",
-    "@gooddata/sdk-ui-charts": "^8.6.0",
-    "@gooddata/sdk-ui-pivot": "^8.6.0",
+    "@gooddata/sdk-backend-base": "^8.7.0",
+    "@gooddata/sdk-backend-bear": "^8.7.0",
+    "@gooddata/sdk-model": "^8.7.0",
+    "@gooddata/sdk-ui": "^8.7.0",
+    "@gooddata/sdk-ui-charts": "^8.7.0",
+    "@gooddata/sdk-ui-pivot": "^8.7.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-scripts": "4.0.3"
