@@ -61,6 +61,6 @@ This error might occur when some sort of ad-block is present in a browser, or wh
 
 ## License
 
-(C) 2017-2021 GoodData Corporation
+(C) 2017-2022 GoodData Corporation
 
 This repository is under the GoodData commercial license available in the [LICENSE](LICENSE) file because it contains a commercial package, HighCharts.
