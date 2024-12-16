@@ -1,8 +1,6 @@
 # GoodData.UI SDK - Interactive Examples - PivotTable
 
-You can run this example in [CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-pivottable?file=/src/App/index.js). Navigate [up](https://github.com/gooddata/gooddata-ui-examples) for more information.
-
-[![PivotTable](/assets/example-localhost-pivottable.png)](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-pivottable?file=/src/App/index.js)
+![PivotTable](/assets/example-localhost-pivottable.png)
 
 ## License
 

@@ -1,8 +1,6 @@
 # GoodData.UI SDK - Interactive Examples - Custom Attribute Filter
 
-You can run this example in [CodeSandbox](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-customattributefilter?file=/src/App/index.js). Navigate [up](https://github.com/gooddata/gooddata-ui-examples) for more information.
-
-[![Custom Attribute Filter](/assets/example-localhost-customattributefilter.png)](https://codesandbox.io/s/github/gooddata/gooddata-ui-examples/tree/master/example-customattributefilter?file=/src/App/index.js)
+![Custom Attribute Filter](/assets/example-localhost-customattributefilter.png)
 
 ## License
 
